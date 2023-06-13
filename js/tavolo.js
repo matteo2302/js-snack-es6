@@ -11,7 +11,7 @@ const invitati = [
   "Amal Clooney",
   "Maneskin",
 ];
-// let tavoloinvitati = [];
+let tavoloinvitati = [];
 // for (let invitato of invitati) {
 //   invitato = {
 //     nome: [invitato],
@@ -21,3 +21,12 @@ const invitati = [
 //   tavoloinvitati.push(invitato);
 // }
 // console.table(tavoloinvitati);
+invitati.forEach((invitato, i) => {
+  invitato = {
+    nome: [invitato],
+    numeroTavolo: [invitato],
+    nomeDelTavolo: [invitato],
+  };
+  tavoloinvitati.push(invitato);
+});
+console.table(tavoloinvitati);

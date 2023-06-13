@@ -23,10 +23,10 @@ let tavoloinvitati = [];
 // console.table(tavoloinvitati);
 invitati.forEach((invitato, i) => {
   invitato = {
-    nome: [invitato],
-    numeroTavolo: [invitato],
-    nomeDelTavolo: [invitato],
+    nome: invitato,
+    numeroTavolo: i,
+    nomeDelTavolo: "tavolo VIP",
   };
   tavoloinvitati.push(invitato);
 });
-console.table(tavoloinvitati);
+console.log(tavoloinvitati);

@@ -33,7 +33,7 @@ let lightbicycle = bicycles[0];
 for (const bicycle of bicycles) {
   const { name, weight } = bicycle;
   if (weight < lightbicycle.weight) {
-    lightbycicle = bicycle;
+    lightbicycle = bicycle;
   }
 }
 

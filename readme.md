@@ -18,3 +18,9 @@
 - faccio un destructuring del name e della weight
 - creo un ciclo che gira nell'array sulle keys
 - stampo il risultato del ciclo e scelgo al bici più leggera con un fi che prendera una costante a cui daro il valore del peso e lo cambiero se è minore
+
+# squadre di calcio
+
+- creo un array di squadre con oggetti con queste specifiche nome'' puntifatti0 fallisubiti0
+- creo un foreach e dentro il foreach ci creo un forin a cui daro un numero casuale a punti fatti e falli subiti
+- destrutturo i dati della squadra e li stampo?

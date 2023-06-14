@@ -22,5 +22,5 @@
 # squadre di calcio
 
 - creo un array di squadre con oggetti con queste specifiche nome'' puntifatti0 fallisubiti0
-- creo un foreach e dentro il foreach ci creo un forin a cui daro un numero casuale a punti fatti e falli subiti
+- creo un foreach e dentro il foreach daro un numero casuale a punti fatti e falli subiti
 - destrutturo i dati della squadra e li stampo?

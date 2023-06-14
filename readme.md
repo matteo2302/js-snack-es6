@@ -10,3 +10,11 @@
 - creo un ciclo filter dove filtro tutti gli studenti con un voto supeririore a 70 e id superiore a 120
 -
 - creo un lista dove ci sono solo i nomi in masiuscolo
+
+# biciclette
+
+- creo un array biciclette
+- lo riempio di oggetto con keys name e weight
+- faccio un destructuring del name e della weight
+- creo un ciclo che gira nell'array sulle keys
+- stampo il risultato del ciclo e scelgo al bici più leggera con un fi che prendera una costante a cui daro il valore del peso e lo cambiero se è minore

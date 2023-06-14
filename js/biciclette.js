@@ -2,7 +2,7 @@ console.log("JSOK");
 const bicycles = [
   {
     name: "Gianfranco",
-    weight: 30,
+    weight: 40,
   },
   {
     name: "Pierluigi",
@@ -29,16 +29,14 @@ const bicycles = [
     weight: 80,
   },
 ];
-
-const { name, weight } = bicycles;
-
-let lightbicycle = 100;
-for (i = 0; i < bicycles.length; i++) {
-  const bicycle = weight;
-  if (bicycle < weight) {
-    lightbicycle = weight;
+let lightbicycle = bicycles[0];
+for (const bicycle of bicycles) {
+  const { name, weight } = bicycle;
+  if (weight < lightbicycle.weight) {
+    lightbycicle = bicycle;
   }
 }
+
 console.log(lightbicycle);
 // const fatBibycle = bicycles.forEach((weight) => {
 //   fatBibycle = weight;
